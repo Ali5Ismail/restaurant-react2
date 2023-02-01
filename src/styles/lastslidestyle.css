@@ -1,0 +1,36 @@
+
+
+
+.lastslide{
+    width: 100vw;
+    min-height:25vh;
+    background-image: url("../images/01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.lastslide p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.lastslide a{
+    background-color:#8a2d49;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+    transition: .6s ease-in-out;
+    border: 2px solid #8a2d49;
+}
+
+.lastslide a:hover{
+    background-color:rgba(252, 252, 252,0);
+    color: #8a2d49;
+    
+}
